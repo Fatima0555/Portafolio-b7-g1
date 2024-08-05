@@ -6,6 +6,6 @@ Fue desarrolado con HTML, CSS, y JS con el uso del framework de UI, Bootstrap ut
 
 La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye la presentación de la autora del proyectos
 
-Proyecto desplegado
+Proyecto desplegado: https://dreamy-bavarois-880565.netlify.app/
 
 # Secciones de mi sitio

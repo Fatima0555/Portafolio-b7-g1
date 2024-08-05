@@ -1,3 +1,11 @@
+#cabecera {
+    background-color: #BF8969;
+        font-family: "Joan", serif;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
 #presentacion {
     height: 90vh;
     display: flex;
@@ -9,6 +17,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+body {
+    background-color: #EAE1CA;
+}
 
 #perfil {
     border-radius: 50%;
@@ -17,6 +28,10 @@
 
 #cuadro {
     background-color: #f4eee1;
+}
+
+#icono {
+    background-color: black;
 }
 
 .proyecto {
@@ -31,4 +46,8 @@
 
 #proyecto-2{
     background-image: url("assets/Miprimerpagina.jfif");
+}
+
+#contacto {
+    background-color: #BF8969;
 }
