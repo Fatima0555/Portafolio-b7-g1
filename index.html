@@ -12,9 +12,13 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Joan&family=Merienda:wght@700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Varela+Round&display=swap" rel="stylesheet">
     
 
   <link rel="stylesheet" href="style.css">
+  <script src="scrip.js"></script>
 
 </head>
 
@@ -63,12 +67,12 @@
             </div>
             <div id="cuadro" class="col-lg-6 p-6">
                 <h1 class="display-5 fw-bold text-dark lh-1 mb-3">Fátima Corona</h1>
-                <p class="lead text-black text-shadow-1">
+                <p id="Texto" class="lead text-black text-shadow-1">
                   Estudiante de ingeniería biomédica, amante de la vida, disfruto de aprender cosas nuevas 
                 </p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-danger btn-lg px-4 me-md-2">Contáctame</button>
-                    <button type="button"
+                    <button id="Texto" type="button" class="btn btn-danger btn-lg px-4 me-md-2">Contáctame</button>
+                    <button id="Texto" type="button"
                         class="btn btn-light btn-lg px-4 border-light">fc9471023@gmail.com</button>
                 </div>
             </div>
@@ -79,7 +83,7 @@
 <!--Habilidades-->
 <section id="habilidades" class="container px-4 py-5">
   <!-- Título de mi sección  -->
-  <h2 class="pb-2 border-bottom">Habilidades</h2>
+  <h2 id="Habilidades" class="pb-2 border-bottom">Habilidades</h2>
   <!-- Contenedor de mis cartas-->
   <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
 
@@ -88,8 +92,8 @@
               class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
               <i class="bi bi-code-square"></i>
           </div>
-          <h3 class="fs-2 text-body-emphasis my-2">Desarrollo web</h3>
-          <p>Conocimientos en HTML, JS, CSS.</p>
+          <h3 id="Texto" class="fs-2 text-body-emphasis my-2">Desarrollo web</h3>
+          <p id="Texto">Conocimientos en HTML, JS, CSS.</p>
       </div>
 
       <div class="feature col">
@@ -97,8 +101,8 @@
               class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
               <i class="bi bi-people"></i>
           </div>
-          <h3 class="fs-2 text-body-emphasis my-2">Trabajo en equipo</h3>
-          <p>Colaboro con equipos multidisciplinarios.</p>
+          <h3 id="Texto" class="fs-2 text-body-emphasis my-2">Trabajo en equipo</h3>
+          <p id="Texto">Colaboro con equipos multidisciplinarios.</p>
       </div>
 
       <div class="feature col">
@@ -106,8 +110,8 @@
               class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
               <i class="bi bi-gear-fill"></i>
           </div>
-          <h3 class="fs-2 text-body-emphasis my-2">Adaptabilidad</h3>
-          <p>Me adapto a diversas stuaciones y personas de manera rapida y adecuada</p>
+          <h3 id="Texto" class="fs-2 text-body-emphasis my-2">Adaptabilidad</h3>
+          <p id="Texto">Me adapto a diversas stuaciones y personas de manera rapida y adecuada</p>
       </div>
 
   </div>
@@ -116,20 +120,20 @@
 <!--PROYECTOS-->
 
     <section id="proyectos" class="container px-4 py-5">
-      <h2 class="pb-2 border-bottom">Proyectos</h2>
+      <h2 id="Proyectos" class="pb-2 border-bottom">Proyectos</h2>
 
       <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div class="col">
 
               <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
 
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-danger text-shadow-1">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                       <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de google</h3>
 
                       <ul class="d-flex list-unstyled mt-auto">
                           <li class="d-flex align-items-center me-3">
                               <i class="bi bi-code-square"></i>
-                              <a href="http://" target="_blank" class="ps-3">URL</a>
+                              <a id="Texto" href="http://" target="_blank" class="ps-3">Clon de Google</a>
                           </li>
                       </ul>
 
@@ -142,13 +146,13 @@
 
             <div id="proyecto-2" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
 
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Suzume</h3>
 
                     <ul class="d-flex list-unstyled mt-auto">
                         <li class="d-flex align-items-center me-3">
                             <i class="bi bi-code-square"></i>
-                            <a href="http://" target="_blank" class="ps-3">URL</a>
+                            <a id="Texto" href="https://miprimerpaginasuzume.netlify.app/" target="_blank" class="ps-3">Suzume</a>
                         </li>
                     </ul>
 
@@ -167,7 +171,7 @@
                   <ul class="d-flex list-unstyled mt-auto">
                       <li class="d-flex align-items-center me-3">
                           <i class="bi bi-code-square"></i>
-                          <a href="http://" target="_blank" class="ps-3">URL</a>
+                          <a id="Texto" href="http://" target="_blank" class="ps-3">URL</a>
                       </li>
                   </ul>
 
@@ -183,7 +187,7 @@
 <!--TESTIMONIOS-->
 
 <section id="testimonios">
-  <h1 class="text-center my-5">Testimonios</h1>
+  <h1 id="Testimonios" class="text-center my-5">Testimonios</h1>
   <div id="myCarousel" class="carousel slide carousel-dark mb-6 carousel-fade" data-bs-theme="dark"
       data-bs-ride="carousel">
 
@@ -191,25 +195,25 @@
 
           <div class="carousel-item active">
               <article class="container text-center">
-                  <img class="rounded-5" src="assets/ada.webp" height="200" alt="Ada Lovelace">
-                  <h3 class="my-3"></h3>
-                  <p>"</p>
+                  <img class="rounded-5" src="assets/0ba5f0bda9480e91012836ce55fc8800.jpg" height="200" alt="Ada Lovelace">
+                  <h3 id="Texto" class="my-3">Gerty Cori</h3>
+                  <p id="Texto">"Es muy comprometida en lo que hace"</p>
               </article>
           </div>
 
           <div class="carousel-item">
               <article class="container text-center">
-                  <img class="rounded-5" src="assets/grace.jpg" height="200" alt="Ada Lovelace">
-                  <h3 class="my-3"></h3>
-                  <p></p>
+                  <img class="rounded-5" src="assets/8c4f024cb485739562072c3325b4e223.jpg" height="200" alt="Ada Lovelace">
+                  <h3 id="Texto" class="my-3">Omar Chavez</h3>
+                  <p id="Texto">Es muy buena trabajando en equipo</p>
               </article>
           </div>
 
           <div class="carousel-item">
               <article class="container text-center">
-                  <img class="rounded-5" src="assets/Hedy.jpeg" height="200" alt="Ada Lovelace">
-                  <h3 class="my-3"></h3>
-                  <p>""</p>
+                  <img class="rounded-5" src="assets/ec32f4d91c4acff4a5d2246872d11c29.jpg" height="200" alt="Ada Lovelace">
+                  <h3 id="Texto" class="my-3">aa</h3>
+                  <p id="Texto"> Persona muy dedicada, siemple cumple las cosas en tiempo y forma</p>
               </article>
           </div>
 
@@ -232,7 +236,7 @@
   <footer id="contacto" class="py-3 mt-" data-bs-theme="width">
     <p class="mt-5 text-white text-center texto-gigante">
     </p>
-    <h4 class="text-white text-center mb-5">"No importa que un sueño no se cumpla, porque tú eres más que solo un sueño"</h4>
+    <h4 id="Texto" class="text-white text-center mb-5">"No importa que un sueño no se cumpla, porque tú eres más que solo un sueño"</h4>
     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
     <li class="nav-item fs-1 ">
       <a href="https://github.com/Fatima0555/" target="_blank" class="nav-link px-5 text-body-secondary">

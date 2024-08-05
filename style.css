@@ -1,9 +1,8 @@
 #cabecera {
     background-color: #BF8969;
-        font-family: "Joan", serif;
-        font-weight: 400;
-        font-style: normal;
-      
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: normal;
 }
 
 #presentacion {
@@ -11,16 +10,23 @@
     display: flex;
     justify-content: start;
     align-items: center;
-
     background-image: url("assets/abstract-wildflowers-watercolor-desktop-wallpaper-preview.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: italic
 }
 body {
     background-color: #EAE1CA;
 }
 
+#Texto {
+    font-family: "Spectral", serif;
+    font-weight: 600;
+    font-style: normal;
+}
 #perfil {
     border-radius: 50%;
     width: 500px;
@@ -34,6 +40,18 @@ body {
     background-color: black;
 }
 
+#Habilidades {
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: normal
+}
+
+#Proyectos {
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: normal
+}
+
 .proyecto {
     background-size: contain;
     background-repeat: no-repeat;
@@ -45,7 +63,13 @@ body {
 }
 
 #proyecto-2{
-    background-image: url("assets/Miprimerpagina.jfif");
+    background-image: url("assets/b9da4fbb57a970fa479dd15dd8f6d2e2.jpg");
+}
+
+#Testimonios {
+    font-family: "Spectral", serif;
+    font-weight: 800;
+    font-style: normal
 }
 
 #contacto {
