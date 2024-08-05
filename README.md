@@ -9,3 +9,18 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 Proyecto desplegado: https://dreamy-bavarois-880565.netlify.app/
 
 # Secciones de mi sitio
+![Presentación](assets/readme/1.jfif)
+
+![Habilidades](assets/readme/2.jfif)
+
+![Proyectos](assets/readme/3.jfif)
+
+![Testimonios](assets/readme/4.jfif)
+
+# Tecnologías
+*HTML
+*CSS
+*Boostrap
+*Javascript
+
+Desarrollado con 💜 por Fátima en TECHNOLOCHICAS PRO
