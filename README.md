@@ -4,7 +4,7 @@ El presente proyecto es un portafolio desarrollado para poner en practica las ha
 
 Fue desarrolado con HTML, CSS, y JS con el uso del framework de UI, Bootstrap utilizando además bibliotecas externas
 
-La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye la presentación de la autora del proyectos
+La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye la presentación de la autora del proyecto
 
 Proyecto desplegado: https://dreamy-bavarois-880565.netlify.app/
 
@@ -18,9 +18,13 @@ Proyecto desplegado: https://dreamy-bavarois-880565.netlify.app/
 ![Testimonios](assets/readme/4.jfif)
 
 # Tecnologías
+
 *HTML
+
 *CSS
+
 *Boostrap
+
 *Javascript
 
 Desarrollado con 💜 por Fátima en TECHNOLOCHICAS PRO

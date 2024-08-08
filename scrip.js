@@ -1,8 +1,6 @@
 // CRUD
 // Crear Leer Actualizar Borrar
 
-alert("Bienvenido");
-
 var app = document.getElementById('app');
 
 var typewriter = new Typewriter(app, {
@@ -15,6 +13,6 @@ typewriter
   .typeString('Fátima Corona')
   .pauseFor(300)
   .deleteAll(5)
-  .typeString('Desarrolladora Fronted JR')
+  .typeString('Futura ingeniera')
   .pauseFor(1000)
   .start();
