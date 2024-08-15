@@ -10,9 +10,9 @@ var typewriter = new Typewriter(app, {
 
 typewriter
   .pauseFor(2500)
-  .typeString('Fátima Corona')
+  .typeString('Fátima Corona.')
   .pauseFor(300)
   .deleteAll(5)
-  .typeString('Futura ingeniera')
+  .typeString('Futura ingeniera.')
   .pauseFor(1000)
   .start();

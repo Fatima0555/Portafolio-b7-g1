@@ -98,6 +98,11 @@ body {
     font-style: normal
 }
 
+.ps-3 {
+color: #6d4b37;
+text-decoration: none;
+}
+
 .proyecto {
     background-size: contain;
     background-repeat: no-repeat;
