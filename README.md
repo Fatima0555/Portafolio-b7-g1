@@ -17,6 +17,8 @@ Proyecto desplegado: https://dreamy-bavarois-880565.netlify.app/
 
 ![Testimonios](assets/readme/4.jfif)
 
+![Contacto](assets/readme/5.jfif)
+
 # Tecnologías
 
 HTML
