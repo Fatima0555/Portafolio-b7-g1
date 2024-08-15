@@ -19,12 +19,12 @@ Proyecto desplegado: https://dreamy-bavarois-880565.netlify.app/
 
 # Tecnologías
 
-*HTML
+HTML
 
-*CSS
+CSS
 
-*Boostrap
+Boostrap
 
-*Javascript
+Javascript
 
 Desarrollado con 💜 por Fátima en TECHNOLOCHICAS PRO
