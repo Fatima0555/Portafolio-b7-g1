@@ -9,15 +9,15 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 Proyecto desplegado: https://portafoliofatima.vercel.app/
 
 # Secciones de mi sitio
-![Presentación](assets/readme/1.jfif)
+![Presentación](assets/readme/11.jfif)
 
-![Habilidades](assets/readme/2.jfif)
+![Habilidades](assets/readme/12.jfif)
 
-![Proyectos](assets/readme/3.jfif)
+![Proyectos](assets/readme/13.jfif)
 
-![Testimonios](assets/readme/4.jfif)
+![Testimonios](assets/readme/14.jfif)
 
-![Contacto](assets/readme/5.jfif)
+![Contacto](assets/readme/15.jfif)
 
 # Tecnologías
 
